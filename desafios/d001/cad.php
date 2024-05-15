@@ -21,7 +21,7 @@
             echo "<p>O antecessor é $ant</p>";
             echo "<p>O sucessor é $suc</p>";
         ?>
-        <button onclick="javascript:window.location.href = d001.html">Voltar</button>
+        <button onclick="javascript:history.go(-1)">Voltar</button>
     </main>
 </body>
 
